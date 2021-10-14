@@ -32,33 +32,40 @@
     <div class = "container" id = "title">
         <h1><b>Graduate Outcomes by College Major</b></h1>
     </div>
-    <div class = "container" id = "content">
+    <div class = "container" id = "introduction">
         <h3>Introduction:</h3>
-        <p> We chose to analyze the dataset "College Majors" from Five Thirty Eight. The dataset contains information on outcomes forvarious college majors. Select variables include median earnings by major, enrollment by major, employment rate by major, 
-                    the share of women enrolled in each major, and the major category. We created a series of dashboards to analyze how outcomes
-                    differ by college major.
-        </p>For our data exploration, we chose to analyze the <a href='https://github.com/fivethirtyeight/data/tree/master/college-majors' target="_blank">College Majors</a> 
-                    dataset. The dataset contains the breakdown of different majors across the United States, from the American Community Survey 
-                    2010-2012 Public Use Microdata Series. The large number of categories allowed us to investigate the popularity of certain majors 
-                    across demographic groups. Additionally we were able to investigate how outcomes differ among different demographic groups. 
-                    We structured our data exploration around the following topics and questions:</p>
-                
-        <section class='topic'>
+        <p>
+            We chose to analyze the dataset "College Majors" from Five Thirty Eight. The dataset contains information on outcomes for 
+            various college majors. Select variables include median earning by major, enrollement by majors, employment rate by major,
+            the share of women enrolled in each major, and the major category. We created a series of dashboards to analyze how outcomes
+            differ by college major.
+        </p>
+        <p>
+            For our data exploration we chose to analyze the 
+            <a href="https://github.com/fivethirtyeight/data/tree/master/college-majors" target="_blank">
+                College Majors
+            </a>
+            dataset. The dataset contains the breakdown of different majors across the Untied States. The data comes from the American
+            Community Survey 2010-2012 Public Use Microdata Series. The large number of categories allowed us to investigate the popularity
+            of certain majors across demographic groups. Additionally, we were able to investigate how outcomes differ among differnt
+            demographic groups. We structured our data exploreation around the following topics and questions:
+        </p>
+        <section class = "topic">
             <ul>
-                <li>Are certain majors more popular among women compared to men?</li>
-                <li>Are there certain major categories that are more popular among women?</li>
-                <li>Are certain there certain STEM majors that are more popular for women?</li>
-                <li>Are women typically employed in high-earning jobs upon graduation?</li>
+                <li>Are certain majors more popular among women compared to men?</li>
+                <li>Are there certain major categories that are more popular among women?</li>
+                <li>Are there certain STEM majors that are more popular for women?</li>
+                <li>Are women typically employed in high-earning jobs upon graduation?</li>
             </ul>
         </section>
-                <hr>
+    </div>
+    <hr>
+
 
     
             <div id="analysis">
                 <h3>Analysis</h3>
-			    <h4 id="topic1">Topic 1: Gender Breakdown by Major</h4>
-
-                <h4>**Title for first visualization</h4>
+			
 
                 <div class='tableauPlaceholder' id='viz1634177447046' ><noscript><a href='#'><img alt='How do college majors and outcomes differ between men and women? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NC&#47;NCJ2KBWDX&#47;1_rss.png'/></a></noscript><object class='tableauViz'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -87,11 +94,11 @@
         <p>Data for all recent graduates, men and women</p>
 
         <img src="womenSTEM.jpeg" alt="Women Stem">
-        <p>Data for graduates, women in stem</p>
+        <p>Data for graduates, women in Stem</p>
 
 
         <p>Data Selection: We chose the college majors dataset because as current college students, we were interested in exploring the breakdown of college majors across the United States between men and women. We wanted to learn about which majors are more popular between men and women and how these differences correlate with employment rates as well as wages. We made sure to look through the data beforehand to spot any missing data, as well as lookout for any outliers. </p>
-        <p>Exploration: We explored the data by first looking at the gender breakdown by major. We made two charts to compare which majors had the largest share of women and men. To look even further we created a dashboard to explore the majors by category to observe any correlation between which categories had higher percentages of women or men. As women in stem, we were also curious about the percentage of women in different stem categories. We created another chart to focus on majors in stem categories. </p>
+        <p>Exploration: We explored the data by first looking at the gender breakdown by major. We made two charts to compare which majors had the largest share of women and men. To look even further we created a dashboard to explore the majors by category to observe any correlation between which categories had higher percentages of women or men. As women in Stem, we were also curious about the percentage of women in different Stem categories. We created another chart to focus on majors in Stem categories. </p>
         <p?>In addition, we wanted to answer the question of which majors/major categories had the highest wages. We created a simple bar chart to display the differences in wages across the different majors. </p>
         
     
@@ -103,14 +110,14 @@
         
         <h4 id="stem">Female Participation in Stem Subjects</h4>
         <img src="FemaleStem.png" alt="Women in Stem">
-        <p>We learned from the preceding part that women have surprisingly small representations in the STEM majors like computer science and engineering. So we decided to take a further look at the women participation in each stem major category. We found that women are most likely to major in the health field including nursing, and the fields of biology and physical science have a relatively more equal gender ratio. Once again, the engineering majors have the lowest women participation. In addition, we created an interactive chart that allows readers to see the specific data of women participation in each major.</p>
+        <p>We learned from the preceding part that women have surprisingly small representations in the STEM majors like computer science and engineering. So we decided to take a further look at the women participation in each Stem major category. We found that women are most likely to major in the health field including nursing, and the fields of biology and physical science have a relatively more equal gender ratio. Once again, the engineering majors have the lowest women participation. In addition, we created an interactive chart that allows readers to see the specific data of women participation in each major.</p>
 
         <img src="topTen.png" alt="Top Ten">
         <p>Finally, we want to explore the majors with highest incomes, and women participating in those majors. We made a bar chart to show the top 10 majors with the highest median income. Petroleum is the most money making major, with a median income of 110k per year, but it only has 12% female students. Among the top 10 majors, 8 are engineering majors with very few female representation. The other two majors are astronomy and actuarial, which belongs to the fields of business and physical science. Astronomy has a 54% female population, and actuarial has a 44% female population. The two majors are also the only majors in top 10 earners that are slightly dominated by women. However, their median income is ranked 7th and 8th. 
             We also implemented an interactive feature in the bar chart. The readers can hover over the bars to see the specific percentage of women in that major.</p>
         
         <h3 id="conclusions">Conclusions</h3>
-        <p>In this project, we learned about the huge gender gap in college majors. We also found out the lack of female participation in the top earner majors. 
+        <p>In this project, we learned about the huge gender gap in college majors. We also found out the lack of female participation in the top earner majors. We found parts of this project difficult because initially it was hard to understand how aggregate functions in Tableau work. Additionally, this project taught us that the format of datasets is important when working in Tableau. Sometimes we ran into issues when trying to analyze differnces across categories due to the layout of the dataset. 
         </p>
     </div>
 
